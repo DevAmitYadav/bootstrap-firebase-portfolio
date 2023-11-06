@@ -1,9 +1,9 @@
 # bootstrap-firebase-portfolio
 This project is a personal portfolio website that showcases my skills, projects, and experience. It is built using Bootstrap for the front-end design and Firebase for hosting
 Project Name: My Portfolio Website
+
  git Pages : https://devamityadav.github.io/bootstrap-firebase-portfolio/
-Description:
-This project is a personal portfolio website that showcases my skills, projects, and experience. It is built using Bootstrap for the front-end design and Firebase for hosting. The website is designed to provide visitors with an overview of my work, background, and how to get in touch with me.
+
 
 Table of Contents:
 
@@ -33,7 +33,8 @@ Clone the repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/your-username/your-portfolio.git](https://github.com/DevAmitYadav/bootstrap-firebase-portfolio.git
+
 Navigate to the project directory:
 
 bash
