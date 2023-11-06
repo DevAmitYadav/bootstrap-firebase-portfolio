@@ -33,7 +33,7 @@ Clone the repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/your-portfolio.git](https://github.com/DevAmitYadav/bootstrap-firebase-portfolio.git
+git clone https://github.com/DevAmitYadav/bootstrap-firebase-portfolio.git
 
 Navigate to the project directory:
 
