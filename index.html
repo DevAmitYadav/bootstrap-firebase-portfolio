@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images\favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" class="img-fluid" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#contact">Hire Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <div id="particles-js"></div>
+                    <h6 style="position: absolute;
+                    font-size: 2vw;
+                    top: 50%;
+                    left;">WELCOME TO MY WORLD</h6>
+                    <h1 style="position: absolute;
+                    top: 60%;
+                    left; font-weight-bold;">I’m Amit Kumar Yadav<br><span>Web Developer.</span><br>based in INDIA.</h1>
+                    <div style="position: absolute;
+                    top: 110%;
+                    left;class=" mt-4">
+                        <a class="main-btn" href="images\AMIT_RESUME.pdf">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js\particles.js"></script>
+        <script src="js\app.js"></script>
+    </section>
+    <!-- Banner section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="images/about.jpg" class="img-fluid rounded-3" alt="About Us">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <span class="subtitle">My About Details</span>
+                        <h2>About Me</h2>
+                        <p>Hello, I am Computer Engineering Student with Experience as a web developer intern at Soft
+                            Coding SOLUTIONS and pursuing Bachelor of engineering from sal college of engineering and I
+                            am passionate about coding and programming I believe I can contributes to world emerging
+                            technology in future. My hobby is playing badminton and internet surfing.</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                                    aria-selected="true">Main Skills</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-experiance" type="button" role="tab"
+                                    aria-controls="pills-experiance" aria-selected="false">Experiance</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Education</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                                aria-labelledby="pills-skill-tab">
+                                <div class="single-progress">
+                                    <h6>Designing</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 95%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">95%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>Managment</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">85%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>PROGRAMMING SKILLS C/C++/PYTHON/JAVA/DS</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">75%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>WEB Development HTML/CSS/JAVASCRIPT</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">80%</span>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-experiance" role="tabpanel"
+                                aria-labelledby="pills-experiance-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">Web Developer intern<span> -SoftCoding Solutions.</span></a>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#">Primary schooling<span>
+                                                Jija Mata Convent School kopar Khairne, 
+                                               Navi Mumbai. </span></a>
+                                    </li>
+                                    <li><a href="#">Secondary & Senior secondary
+                                            Schooling<span> - Kendriya Vidyalaya Air Force Station
+                                                vadsar,Gandhinagar. </span></a>
+                                    </li>
+                                    <li><a href="#">Pursuing Degree in
+                                            Computer Engineering<span> - SAL college of
+                                                Engineering, Ahmedabad 2017-current.
+                                            </span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About section exit -->
+
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">What I can do for you</span>
+                    <h2>My Awesome Service</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-1.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Web design</h3>
+                            <p>Web design refers to the design of websites that are displayed on the internet. It
+                                usually refers to the user experience aspects of website development rather than
+                                software development..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-2.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Website Development</h3>
+                            <p>Web development is a process that involves building, creating and maintaining websites.
+                                Web developers use a variety of coding languages depending on what they want to do with
+                                the website.....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Trading Services</h3>
+                            <p>Trading is the act of buying and selling stocks frequently with a goal of making
+                                short-term profits instead of focusing on long-term gains. But wait—let’s back up. As a
+                                refresher, stocks represent shares (or tiny pieces) of a company. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Account Handling</h3>
+                            <p>You Need To Share Your Trading Account Credentials With Us & We Trade On Your Behalf.
+                                100% Privacy Would Be Maintained.Client Can Login The Trading Account Anytime To Check
+                                The Trades.
+                                The Terminal Accept Zerodha / Aliceblue / Upstox Accounts Only.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-4.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Database Management</h3>
+                            <p>Database management system is a software which is used to manage the database. For
+                                example: MySQL, Oracle, DBMS provides an interface to perform various operations like
+                                database creation, storing
+                                data in it, updating data, creating a table in the database.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Fully Responsive</h3>
+                            <p>Fully responsive web design means your site will look great on all of those devices so
+                                you are not shorting any segment of your audience. It’s the ultimate example of putting
+                                user experience at the core of design, A responsive layout is the first step to a fully
+                                responsive website.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Services section exit -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">My Complete project</span>
+                    <h2>My Latest Project</h2>
+                    <p>FoodGanized is a website that allow user to pre-plan their meals, weekly or biweekly. This
+                        project will help user to prepare their meals for the day and save time without thinking of the
+                        dishes by designing a personalized meal plan with the help of ready-made templates and
+                        easy-to-use tools.
+                        It is a 3-step process - Get Organized, Plan ahead and make a List. This step will help to be
+                        more productive spending rest of your time efficiently. Users may benefit most from
+                        incorporating into their routines, new ways to prepare easy, cost efficient, healthy meal at
+                        home that their family will enjoy.
+                        When you save recipes, you can organize them into separate meal categories, such as lunch and
+                        dinner. You can also enter and save your own recipes manually. The daily needs can be fulfilled
+                        by the designated meals, and the interactive
+                        diet planning scheme helps a user to adjust the plan in an easier way.</p>
+                </div>
+            </div>
+            <center>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card p-0">
+                            <span style="background-image: url('./images/portfolio/App-Landing-Page.png')"></span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </center>
+    </section>
+    <!-- Portfolio Section exit -->
+
+    <!-- Contact section -->
+    <form id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">Let's Say Hi</span>
+                    <h2>Hire Me.</h2>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3">Call us directly:</label>
+                        <div class="col-sm-9 mb-3 mb-lg-2">
+                            <a href="javascript:void(0)">+91 8128224833</a>
+                        </div>
+                        <label class="col-sm-3">Contact Email:</label>
+                        <div class="col-sm-9 mb-3 mb-lg-2">
+                            <a href="abc:example@gmail.com">ay820494@gmail.com</a>
+                        </div>
+                    </div>
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <div class="mb-4">
+                            <input type="text" class="form-control" placeholder="Your Name..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="number" class="form-control" placeholder="Your Phone..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control" placeholder="Your Email..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input cols="40" rows="4" class="form-control" id="message" placeholder="Write a Message..."
+                                autocomplete="off">
+                        </div>
+                        <button type="submit" class="main-btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img src="./images/contact.jpg" class="img-fluid" width="400" height="500" opacity: 0.4>
+                </div>
+            </div>
+        </div>
+    </form>
+    </section>
+    <!-- contact section exit -->
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="images/logo.png">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul
+                        class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0">
+                        <li>
+                            <a href="https://www.instagram.com/epsilon_rex/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/yadav.amit.543/"><i class="fab fa-facebook-f"></i> </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Menzmonk1"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/amit-kumar-yadav-3741b7149/"><i class="fab fa-linkedin-in"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                        <p class="mb-0">Copyright © 2022 <a href="#">Amit Yadav</a>. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+             Email.send({
+             Host : "smtp.gmail.com",
+             Username : "username",
+             Password : "password",
+             To : 'them@website.com',
+             From : "you@isp.com",
+             Subject : "This is the subject",
+             Body : "And this is the body"
+        }).then(
+             message => alert(message)
+        );
+            
+        }
+        </script>
+</body>
+
+</html>
